@@ -5,11 +5,8 @@ node_js:
 services:
   - docker
 
-before_install:
-  
-
 install:
- 
+  - echo "probando"
   
 before_script: []
 
