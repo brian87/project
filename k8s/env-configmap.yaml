@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: bucket-20132242-dev
+  AWS_PROFILE: default
+  AWS_REGION: eu-west-1
+  JWT_SECRET: hello
+  POSTGRES_DB: xtiancdr
+  POSTGRES_HOST: xtiancdr.cd19ykxyxuue.eu-west-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
+
